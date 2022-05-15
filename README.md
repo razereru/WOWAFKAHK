@@ -7,6 +7,7 @@ Eru WOW AFK AHK Script for World of Warcraft
 Autohotkey required https://www.autohotkey.com/
 
 ---How to use this script---
+
 Have 2 characters to log into  -they need to be above one another in the log in screen (and select the character lower of the 2)
 In game Logout macro "/logout" needed for each character and Bound to key "E"
 
