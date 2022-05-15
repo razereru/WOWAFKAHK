@@ -1,5 +1,6 @@
 # WOWAFKAHK
 World of Warcraft Classic AutoHotkey AFK macro
+
 Eru WOW AFK AHK Script for World of Warcraft
 
 
