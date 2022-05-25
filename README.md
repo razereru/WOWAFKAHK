@@ -57,3 +57,5 @@ MW -  MULTI WINDOW version supports up to 4 WoW Instances running at the same ti
 
 -= WOWID 2-4 =-
 WOWID2-4 supports the 3 "Last" WoW instances (first instance doesnt rescive any bytton presses - all of the requirements mentioned above still apply to this version)
+
+I have added EXE versions (all this means it includes the AHK Software and there is no need to download it )
