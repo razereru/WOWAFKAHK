@@ -52,4 +52,4 @@ Press CTL+Shift+F9
 
 
 
-MW version supports up to 4 WoW windows running at the same time
+MW -  MULTI WINDOW version supports up to 4 WoW Instances running at the same time (all of the above requirements apply to this version) - movement will be exactly the same in all windows
