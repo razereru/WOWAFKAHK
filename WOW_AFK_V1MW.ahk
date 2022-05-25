@@ -42,7 +42,7 @@ while enable
     ControlSend,, {a down}, ahk_id %wowid1% ;press A ID1
     ControlSend,, {a down}, ahk_id %wowid2% ;press A ID2
     ControlSend,, {a down}, ahk_id %wowid3% ;press A ID3
-    ControlSend,, {a down}, ahk_id %wowid3% ;press A ID4
+    ControlSend,, {a down}, ahk_id %wowid4% ;press A ID4
     Random, a1, 80, 100
     Sleep a1
     ControlSend,, {a up}, ahk_id %wowid1% ;release A ID1
