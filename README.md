@@ -51,5 +51,5 @@ Press CTL+Shift+F9
 "you can check the macro is running by right-clicking AHK in the taskbar and clicking OPEN you should see that line of code the macro is on"
 
 
-
+------ MW -  MULTI WINDOW Release ------
 MW -  MULTI WINDOW version supports up to 4 WoW Instances running at the same time (all of the above requirements apply to this version) - movement will be exactly the same in all windows
