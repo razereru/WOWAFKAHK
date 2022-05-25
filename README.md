@@ -49,3 +49,7 @@ log in to the bottom character and open the WOW_AFK_1
 Step 5
 Press CTL+Shift+F9
 "you can check the macro is running by right-clicking AHK in the taskbar and clicking OPEN you should see that line of code the macro is on"
+
+
+
+MW version supports up to 4 WoW windows running at the same time
