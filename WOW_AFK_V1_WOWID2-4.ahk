@@ -1,5 +1,5 @@
-; !!!!MULTI WINDOW!!!!
-; ****Button presses sessions 1 through 4****
+; !!!!MULTI WINDOW!!!! 
+; ****Button presses Only sessions 2 through 4****
 ; Eru WOW AFK AHK Script for World of Warcraft
 ;
 ; 
@@ -40,13 +40,13 @@ while enable
 ;START IN CHAR 1
     Sleep, 250
 ; MOVEMENT1
-    ControlSend,, {a down}, ahk_id %wowid1% ;press A ID1
+
     ControlSend,, {a down}, ahk_id %wowid2% ;press A ID2
     ControlSend,, {a down}, ahk_id %wowid3% ;press A ID3
     ControlSend,, {a down}, ahk_id %wowid4% ;press A ID4
     Random, a1, 80, 100
     Sleep a1
-    ControlSend,, {a up}, ahk_id %wowid1% ;release A ID1
+
     ControlSend,, {a up}, ahk_id %wowid2% ;release A ID2
     ControlSend,, {a up}, ahk_id %wowid3% ;release A ID3
     ControlSend,, {a up}, ahk_id %wowid4% ;release A ID4
@@ -54,13 +54,13 @@ while enable
     Random, r1, 800, 16000
     Sleep, r1
 ; MOVEMENT2
-    ControlSend,, {d down}, ahk_id %wowid1% ;press D ID1
+
     ControlSend,, {d down}, ahk_id %wowid2% ;press D ID2
     ControlSend,, {d down}, ahk_id %wowid3% ;press D ID3
     ControlSend,, {d down}, ahk_id %wowid4% ;press D ID4
     Random, d1, 80, 100
     Sleep d1
-    ControlSend,, {d up}, ahk_id %wowid1% ;release D ID1
+
     ControlSend,, {d up}, ahk_id %wowid2% ;release D ID2
     ControlSend,, {d up}, ahk_id %wowid3% ;release D ID3
     ControlSend,, {d up}, ahk_id %wowid4% ;release D ID4
@@ -68,13 +68,13 @@ while enable
     Random, rw2, 240000, 300000
     Sleep, rw2
 ; MOVEMENT3
-    ControlSend,, {d down}, ahk_id %wowid1%
+
     ControlSend,, {d down}, ahk_id %wowid2%
     ControlSend,, {d down}, ahk_id %wowid3%
     ControlSend,, {d down}, ahk_id %wowid4%
     Random, d2, 80, 100
     Sleep d2
-    ControlSend,, {d up}, ahk_id %wowid1%
+
     ControlSend,, {d up}, ahk_id %wowid2%
     ControlSend,, {d up}, ahk_id %wowid3%
     ControlSend,, {d up}, ahk_id %wowid4%
@@ -82,13 +82,13 @@ while enable
     Random, r2, 800, 1600
     Sleep, r2
 ; MOVEMENT4  
-    ControlSend,, {a down}, ahk_id %wowid1%
+
     ControlSend,, {a down}, ahk_id %wowid2%
     ControlSend,, {a down}, ahk_id %wowid3%
     ControlSend,, {a down}, ahk_id %wowid4%
     Random, a2, 80, 100
     Sleep a2
-    ControlSend,, {a up}, ahk_id %wowid1%
+
     ControlSend,, {a up}, ahk_id %wowid2%
     ControlSend,, {a up}, ahk_id %wowid3%
     ControlSend,, {a up}, ahk_id %wowid4%
@@ -96,13 +96,13 @@ while enable
     Random, r4, 800, 1600
     Sleep, r4
 ; EXTRA JUMP MOVEMENT4
-    ControlSend,, {Space}, ahk_id %wowid1%
+
     ControlSend,, {Space}, ahk_id %wowid2%
     ControlSend,, {Space}, ahk_id %wowid3%
     ControlSend,, {Space}, ahk_id %wowid4%
     Random, rw3, 800, 1600
     Sleep, rw3
-    ControlSend,, {Space}, ahk_id %wowid1%
+
     ControlSend,, {Space}, ahk_id %wowid2%
     ControlSend,, {Space}, ahk_id %wowid3%
     ControlSend,, {Space}, ahk_id %wowid4%
@@ -112,13 +112,13 @@ while enable
     Sleep, rw4
 
 ; MOVEMENT4
-    ControlSend,, {a down}, ahk_id %wowid1%
+  
     ControlSend,, {a down}, ahk_id %wowid2%
     ControlSend,, {a down}, ahk_id %wowid3%
     ControlSend,, {a down}, ahk_id %wowid4%
     Random, a3, 80, 100
     Sleep a3
-    ControlSend,, {a up}, ahk_id %wowid1%
+
     ControlSend,, {a up}, ahk_id %wowid2%
     ControlSend,, {a up}, ahk_id %wowid3%
     ControlSend,, {a up}, ahk_id %wowid4%
@@ -126,18 +126,18 @@ while enable
     Random, rw1, 900, 1600
     Sleep, rw1
 ; MOVEMENT5 
-    ControlSend,, {d down}, ahk_id %wowid1%
+
     ControlSend,, {d down}, ahk_id %wowid2%
     ControlSend,, {d down}, ahk_id %wowid3%
     ControlSend,, {d down}, ahk_id %wowid4%
     Random, d3, 80, 100
     Sleep d3
-    ControlSend,, {d up}, ahk_id %wowid1%
+
     ControlSend,, {d up}, ahk_id %wowid2%
     ControlSend,, {d up}, ahk_id %wowid3%
     ControlSend,, {d up}, ahk_id %wowid4%
 ; MOVEMENT6
-    ControlSend,, {Space}, ahk_id %wowid1%
+
     ControlSend,, {Space}, ahk_id %wowid2%
     ControlSend,, {Space}, ahk_id %wowid3%
     ControlSend,, {Space}, ahk_id %wowid4%
@@ -147,13 +147,13 @@ while enable
     Random, rw5, 180000, 300000
     Sleep, rw5
 ; MOVEMENT7  
-    ControlSend,, {d down}, ahk_id %wowid1%
+
     ControlSend,, {d down}, ahk_id %wowid2%
     ControlSend,, {d down}, ahk_id %wowid3%
     ControlSend,, {d down}, ahk_id %wowid4%
     Random, d4, 80, 100
     Sleep d4
-    ControlSend,, {d up}, ahk_id %wowid1%
+
     ControlSend,, {d up}, ahk_id %wowid2%
     ControlSend,, {d up}, ahk_id %wowid3%
     ControlSend,, {d up}, ahk_id %wowid4%
@@ -161,13 +161,13 @@ while enable
     Random, r3, 900, 16000
     Sleep, r3
 ; MOVEMENT
-    ControlSend,, {a down}, ahk_id %wowid1%
+
     ControlSend,, {a down}, ahk_id %wowid2%
     ControlSend,, {a down}, ahk_id %wowid3%
     ControlSend,, {a down}, ahk_id %wowid4%
     Random, a3, 80, 100
     Sleep a3
-    ControlSend,, {a up}, ahk_id %wowid1%
+
     ControlSend,, {a up}, ahk_id %wowid2%
     ControlSend,, {a up}, ahk_id %wowid3%
     ControlSend,, {a up}, ahk_id %wowid4%
@@ -180,12 +180,12 @@ while enable
 
 ;------ LOGOUTMACRO -------
 ;PRESS LOGOUT MACRO - ID1
-    ControlSend,, {e down}, ahk_id %wowid1%
+
     ControlSend,, {e down}, ahk_id %wowid2%
     ControlSend,, {e down}, ahk_id %wowid3%
     ControlSend,, {e down}, ahk_id %wowid4%
     Sleep 80
-    ControlSend,, {e up}, ahk_id %wowid1%
+
     ControlSend,, {e up}, ahk_id %wowid2%
     ControlSend,, {e up}, ahk_id %wowid3%
     ControlSend,, {e up}, ahk_id %wowid4%
@@ -193,24 +193,24 @@ while enable
     Random, rl1, 620000, 960000
     Sleep, rl1
 ; SWITCH CHAR to CHAR2 - ID1
-    ControlSend,, {up down}, ahk_id %wowid1%
+
     ControlSend,, {up down}, ahk_id %wowid2%
     ControlSend,, {up down}, ahk_id %wowid3%
     ControlSend,, {up down}, ahk_id %wowid4%
     Sleep, 80
-    ControlSend,, {up up}, ahk_id %wowid1%
+
     ControlSend,, {up up}, ahk_id %wowid2%
     ControlSend,, {up up}, ahk_id %wowid3%
     ControlSend,, {up up}, ahk_id %wowid4%
 ; WAITING ON CHAR 2 - ID1
     Sleep, 6000
 ; lOGING IN TO CHAR 2 - ID1
-    ControlSend,, {enter down}, ahk_id %wowid1%
+
     ControlSend,, {enter down}, ahk_id %wowid2%
     ControlSend,, {enter down}, ahk_id %wowid3%
     ControlSend,, {enter down}, ahk_id %wowid4%
     Sleep, 80
-    ControlSend,, {enter up}, ahk_id %wowid1%
+
     ControlSend,, {enter up}, ahk_id %wowid2%
     ControlSend,, {enter up}, ahk_id %wowid3%
     ControlSend,, {enter up}, ahk_id %wowid4%
@@ -218,13 +218,13 @@ while enable
     Random, al2, 120000, 180000
     Sleep, al2
 ; MOVEMENT1-2
-    ControlSend,, {a down}, ahk_id %wowid1%
+
     ControlSend,, {a down}, ahk_id %wowid2%
     ControlSend,, {a down}, ahk_id %wowid3%
     ControlSend,, {a down}, ahk_id %wowid4%
     Random, ab1, 80, 100
     Sleep ab1
-    ControlSend,, {a up}, ahk_id %wowid1%
+
     ControlSend,, {a up}, ahk_id %wowid2%
     ControlSend,, {a up}, ahk_id %wowid3%
     ControlSend,, {a up}, ahk_id %wowid4%
@@ -232,13 +232,13 @@ while enable
     Random, rb1, 800, 16000
     Sleep, rb1
 ; MOVEMENT-2-char2
-    ControlSend,, {d down}, ahk_id %wowid1%
+
     ControlSend,, {d down}, ahk_id %wowid2%
     ControlSend,, {d down}, ahk_id %wowid3%
     ControlSend,, {d down}, ahk_id %wowid4%
     Random, db1, 80, 100
     Sleep db1
-    ControlSend,, {d up}, ahk_id %wowid1%
+
     ControlSend,, {d up}, ahk_id %wowid2%
     ControlSend,, {d up}, ahk_id %wowid3%
     ControlSend,, {d up}, ahk_id %wowid4%
@@ -246,13 +246,13 @@ while enable
     Random, rwb2, 240000, 300000
     Sleep, rwb2
 ; MOVEMENT3-char2
-    ControlSend,, {d down}, ahk_id %wowid1%
+
     ControlSend,, {d down}, ahk_id %wowid2%
     ControlSend,, {d down}, ahk_id %wowid3%
     ControlSend,, {d down}, ahk_id %wowid4%
     Random, db2, 80, 100
     Sleep db2
-    ControlSend,, {d up}, ahk_id %wowid1%
+
     ControlSend,, {d up}, ahk_id %wowid2%
     ControlSend,, {d up}, ahk_id %wowid3%
     ControlSend,, {d up}, ahk_id %wowid4%
@@ -260,13 +260,13 @@ while enable
     Random, rb2, 800, 16000
     Sleep, rb2
 ; MOVEMENT4-char2
-    ControlSend,, {a down}, ahk_id %wowid1%
+
     ControlSend,, {a down}, ahk_id %wowid2%
     ControlSend,, {a down}, ahk_id %wowid3%
     ControlSend,, {a down}, ahk_id %wowid4%
     Random, ab2, 80, 100
     Sleep ab2
-    ControlSend,, {a up}, ahk_id %wowid1%
+  
     ControlSend,, {a up}, ahk_id %wowid2%
     ControlSend,, {a up}, ahk_id %wowid3%
     ControlSend,, {a up}, ahk_id %wowid4%
@@ -274,14 +274,14 @@ while enable
     Random, rb4, 800, 16000
     Sleep, rb4
 ; EXTRA JUMP MOVEMENT5-char2
-    ControlSend,, {Space}, ahk_id %wowid1%
+
     ControlSend,, {Space}, ahk_id %wowid2%
     ControlSend,, {Space}, ahk_id %wowid3%
     ControlSend,, {Space}, ahk_id %wowid4%
     Random, rwb3, 800, 16000
     Sleep, rwb3
 
-    ControlSend,, {Space}, ahk_id %wowid1%
+
     ControlSend,, {Space}, ahk_id %wowid2%
     ControlSend,, {Space}, ahk_id %wowid3%
     ControlSend,, {Space}, ahk_id %wowid4%
@@ -291,13 +291,13 @@ while enable
     Sleep, rwb5
 
 ; MOVEMENT6-char2
-    ControlSend,, {a down}, ahk_id %wowid1%
+
     ControlSend,, {a down}, ahk_id %wowid2%
     ControlSend,, {a down}, ahk_id %wowid3%
     ControlSend,, {a down}, ahk_id %wowid4%
     Random, ab3, 80, 100
     Sleep ab3
-    ControlSend,, {a up}, ahk_id %wowid1%
+
     ControlSend,, {a up}, ahk_id %wowid2%
     ControlSend,, {a up}, ahk_id %wowid3%
     ControlSend,, {a up}, ahk_id %wowid4%
@@ -305,18 +305,18 @@ while enable
     Random, rwb1, 800, 16000
     Sleep, rwb1
 ; MOVEMENT7-2
-    ControlSend,, {d down}, ahk_id %wowid1%
+
     ControlSend,, {d down}, ahk_id %wowid2%
     ControlSend,, {d down}, ahk_id %wowid3%
     ControlSend,, {d down}, ahk_id %wowid4%
     Random, db3, 80, 100
     Sleep db3
-    ControlSend,, {d up}, ahk_id %wowid1%
+
     ControlSend,, {d up}, ahk_id %wowid2%
     ControlSend,, {d up}, ahk_id %wowid3%
     ControlSend,, {d up}, ahk_id %wowid4%
 ; MOVEMENT8-2
-    ControlSend,, {Space}, ahk_id %wowid1%
+
     ControlSend,, {Space}, ahk_id %wowid2%
     ControlSend,, {Space}, ahk_id %wowid3%
     ControlSend,, {Space}, ahk_id %wowid4%
@@ -327,13 +327,13 @@ while enable
     Random, rwb7, 180000, 300000
     Sleep, rwb7
 ; MOVEMENT9-2
-    ControlSend,, {d down}, ahk_id %wowid1%
+
     ControlSend,, {d down}, ahk_id %wowid2%
     ControlSend,, {d down}, ahk_id %wowid3%
     ControlSend,, {d down}, ahk_id %wowid4%
     Random, db4, 80, 100
     Sleep db4
-    ControlSend,, {d up}, ahk_id %wowid1%
+
     ControlSend,, {d up}, ahk_id %wowid2%
     ControlSend,, {d up}, ahk_id %wowid3%
     ControlSend,, {d up}, ahk_id %wowid4%
@@ -341,13 +341,13 @@ while enable
     Random, rb7, 800, 16000
     Sleep, rb7
 ; MOVEMENT10-2 
-    ControlSend,, {a down}, ahk_id %wowid1%
+ 
     ControlSend,, {a down}, ahk_id %wowid2%
     ControlSend,, {a down}, ahk_id %wowid3%
     ControlSend,, {a down}, ahk_id %wowid4%
     Random, ab3, 80, 100
     Sleep ab3
-    ControlSend,, {a up}, ahk_id %wowid1%
+
     ControlSend,, {a up}, ahk_id %wowid2%
     ControlSend,, {a up}, ahk_id %wowid3%
     ControlSend,, {a up}, ahk_id %wowid4%
@@ -359,24 +359,24 @@ while enable
     Sleep, rwb8
 ;------ LOGOUTMACRO -------
 ;PRESS LOGOUT MACRO 
-    ControlSend,, {e down}, ahk_id %wowid1%
+
     ControlSend,, {e down}, ahk_id %wowid2%
     ControlSend,, {e down}, ahk_id %wowid3%
     ControlSend,, {e down}, ahk_id %wowid4%
     Sleep 80
-    ControlSend,, {e up}, ahk_id %wowid1%
+
     ControlSend,, {e up}, ahk_id %wowid2%
     ControlSend,, {e up}, ahk_id %wowid3%
     ControlSend,, {e up}, ahk_id %wowid4%
 ; WAITING FOR LOADING
     Sleep, 80000
 ; SWITCH CHAR CHAR1
-    ControlSend,, {down down}, ahk_id %wowid1%
+
     ControlSend,, {down down}, ahk_id %wowid2%
     ControlSend,, {down down}, ahk_id %wowid3%
     ControlSend,, {down down}, ahk_id %wowid4%
     Sleep, 80
-    ControlSend,, {down up}, ahk_id %wowid1%
+
     ControlSend,, {down up}, ahk_id %wowid2%
     ControlSend,, {down up}, ahk_id %wowid3%
     ControlSend,, {down up}, ahk_id %wowid4%
@@ -384,12 +384,12 @@ while enable
     Random, rl2, 600000, 800000
     Sleep, rl2
 ; lOGING IN TO CHAR 1
-    ControlSend,, {enter down}, ahk_id %wowid1%
+
     ControlSend,, {enter down}, ahk_id %wowid2%
     ControlSend,, {enter down}, ahk_id %wowid3%
     ControlSend,, {enter down}, ahk_id %wowid4%
     Sleep, 80
-    ControlSend,, {enter up}, ahk_id %wowid1%
+
     ControlSend,, {enter up}, ahk_id %wowid2%
     ControlSend,, {enter up}, ahk_id %wowid3%
     ControlSend,, {enter up}, ahk_id %wowid4%

@@ -54,3 +54,6 @@ Press CTL+Shift+F9
 --== MW -  MULTI WINDOW Release ==--  
 
 MW -  MULTI WINDOW version supports up to 4 WoW Instances running at the same time (all of the above requirements apply to this version) - movement will be exactly the same in all windows
+
+-= WOWID 2-4 =-
+WOWID2-4 supports the 3 "Last" WoW instances (first instance doesnt rescive any bytton presses - all of the requirements mentioned above still apply to this version)
